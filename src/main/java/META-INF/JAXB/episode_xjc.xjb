@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.02.15 a las 11:07:23 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://tempuri.org/WSQBC/QBCDE">
+    <schemaBindings map="false">
+      <package name="qualitas.wsdlTarifas"/>
+    </schemaBindings>
+    <bindings scd="tns:listaTarifasResponse">
+      <class ref="qualitas.wsdlTarifas.ListaTarifasResponse"/>
+    </bindings>
+    <bindings scd="tns:listaMarcasResponse">
+      <class ref="qualitas.wsdlTarifas.ListaMarcasResponse"/>
+    </bindings>
+    <bindings scd="tns:listaTarifas">
+      <class ref="qualitas.wsdlTarifas.ListaTarifas"/>
+    </bindings>
+    <bindings scd="tns:listaMarcas">
+      <class ref="qualitas.wsdlTarifas.ListaMarcas"/>
+    </bindings>
+  </bindings>
+</bindings>
+
